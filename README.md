@@ -28,7 +28,7 @@ Gruvbox theme for Yatline plugin.
 ### General
 1) Download the repository.
 2) If the directory is downloaded as zip file, extract it.
-3) Rename the directory as `yatline.yazi`
+3) Rename the directory as `yatline-gruvbox.yazi`
 4) Open the config directory of Yazi.
 5) Copy this directory into `plugins` directory.
 6) Create `init.lua` file in the main Yazi config directory.
@@ -36,7 +36,7 @@ Gruvbox theme for Yatline plugin.
 
 ### Linux
 ``` bash
-git clone https://github.com/imsi32/yatline.yazi.git ~/.config/yazi/plugins/yatline.yazi
+git clone https://github.com/imsi32/yatline-gruvbox.yazi.git ~/.config/yazi/plugins/yatline-gruvbox.yazi
 ```
 
 ## Usage
