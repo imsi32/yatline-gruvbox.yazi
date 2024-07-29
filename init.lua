@@ -37,6 +37,7 @@ local gruvbox_dark_palette = {
 }
 
 local gruvbox_dark_theme = {
+	-- yatline
 	section_separator_open = "",
 	section_separator_close = "",
 
@@ -72,6 +73,16 @@ local gruvbox_dark_theme = {
 	fail = { icon = "", fg = gruvbox_dark_palette.red },
 	found = { icon = "󰮕", fg = gruvbox_dark_palette.blue },
 	processed = { icon = "󰐍", fg = gruvbox_dark_palette.green },
+
+	-- yatline-githead
+	prefix_color = gruvbox_dark_palette.fg3,
+	branch_color = gruvbox_dark_palette.blue,
+	commit_color = gruvbox_dark_palette.purple,
+	stashes_color = gruvbox_dark_palette.purple,
+	state_color = gruvbox_dark_palette.red,
+	staged_color = gruvbox_dark_palette.yellow,
+	unstaged_color = gruvbox_dark_palette.orange,
+	untracked_color = gruvbox_dark_palette.aqua,
 }
 
 --===============--
@@ -113,6 +124,7 @@ local gruvbox_light_palette = {
 }
 
 local gruvbox_light_theme = {
+	-- yatline
 	section_separator_open = "",
 	section_separator_close = "",
 
@@ -143,11 +155,21 @@ local gruvbox_light_theme = {
 	copied = { icon = "", fg = gruvbox_light_palette.dark_green },
 	cut = { icon = "", fg = gruvbox_light_palette.dark_red },
 
-	total = { icon = "󰮍", fg = gruvbox_light_palette.yellow },
-	succ = { icon = "", fg = gruvbox_light_palette.green },
-	fail = { icon = "", fg = gruvbox_light_palette.red },
-	found = { icon = "󰮕", fg = gruvbox_light_palette.blue },
-	processed = { icon = "󰐍", fg = gruvbox_light_palette.green },
+	total = { icon = "󰮍", fg = gruvbox_light_palette.dark_yellow },
+	succ = { icon = "", fg = gruvbox_light_palette.dark_green },
+	fail = { icon = "", fg = gruvbox_light_palette.dark_red },
+	found = { icon = "󰮕", fg = gruvbox_light_palette.dark_blue },
+	processed = { icon = "󰐍", fg = gruvbox_light_palette.dark_green },
+
+	-- yatline-githead
+	prefix_color = gruvbox_light_palette.fg2,
+	branch_color = gruvbox_light_palette.dark_blue,
+	commit_color = gruvbox_light_palette.dark_purple,
+	stashes_color = gruvbox_light_palette.dark_purple,
+	state_color = gruvbox_light_palette.dark_red,
+	staged_color = gruvbox_light_palette.dark_yellow,
+	unstaged_color = gruvbox_light_palette.dark_orange,
+	untracked_color = gruvbox_light_palette.dark_aqua,
 }
 
 return { setup = function(_, args)
